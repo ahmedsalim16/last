@@ -1,0 +1,127 @@
+.ticket-container {
+    background-color: #8A74F9;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 350px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+    bottom: 29vh;
+    left: 1vw;
+    width: 408px;
+    height: 264px;
+    border-radius: 12.47px;
+  }
+  
+  .ticket-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .ticket-header i{
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: -3vw;
+    cursor: pointer;
+  }
+  i:hover{
+    scale: .8;
+  }
+  
+  .ticket-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .link-container {
+    display: flex;
+    align-items: center;
+    
+   
+  
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8.32px;
+    width: 226.2px;
+    height: 42px;
+    justify-content: center;
+  }
+  .link-container input{
+    background-color: #fff;
+    border: none;
+    border-radius: 8.32px;
+    width: 226.2px;
+    height: 42px;
+  }
+  .link-container i {
+    position: relative;
+    left: .1vw;
+    cursor: pointer;
+
+  }
+  
+  .validity {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .ticket-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .qr-code img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .discount {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .discount-amount {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+  }
+  h6{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    border-bottom: 2.49px dashed #ffffff;
+    line-height: 0.1em;
+
+}
+.holes-lower {
+	position: relative;
+	
+	
+	&:before,
+	&:after {
+		content: '';
+		height: 50px;
+		width: 43px;
+		background-color: #F3F5F7;
+		position: absolute;
+		border-radius: 50%;
+	}
+	
+	&:before {
+		top: -33px;
+        left: -206px;
+	}
+	&:after {
+		top: -33px;
+        left: 163px;
+	}
+}
+  

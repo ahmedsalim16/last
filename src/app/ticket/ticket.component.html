@@ -1,0 +1,30 @@
+<div class="ticket-container">
+    <div class="ticket-header">
+        <i class="fa-solid fa-trash" style="color: #FFFFFF;"  title="delete"></i>
+        عرض التذكرة الخاصة بالفيلم
+
+       
+    </div>
+    
+    <div class="ticket-content">
+      <div class="link-container">
+        <i class="fa-regular fa-copy" style="color: #8A74F9;" title="copy"></i>
+        <input type="text" label="link" name="link" id="link" [(ngModel)]="qrValue" />
+        
+      </div>
+      
+      <div class="validity">فعال حتي 15 يوليو 2023</div>
+      <h6></h6>
+      <div class="holes-lower"></div>
+      <div class="ticket-footer">
+        <div class="col-md-2">
+            <qrcode [qrdata]="qrValue" [width]="20" colorDark="#59c7f3" colorLight="#fff"></qrcode>
+          </div>
+        <div class="discount">
+          <span>خصم</span><br/>
+          <span class="discount-amount">25%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
